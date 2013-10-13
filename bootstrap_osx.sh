@@ -80,10 +80,10 @@ setup_zsh() {
 setup_iterm() {
   if [ ! -d ~/Applications/iTerm.app ]; then
     wget \
-      http://www.iterm2.com/downloads/stable/iTerm2_v1_0_0.zip \
+      http://www.iterm2.com/downloads/beta/iTerm2-1_0_0_20130811.zip \
       --directory-prefix ~/Downloads
     pushd ~/Downloads
-    unzip iTerm2_v1_0_0.zip
+    unzip iTerm2-1_0_0_20130811.zip
     mv iTerm.app ~/Applications
     popd
   fi
