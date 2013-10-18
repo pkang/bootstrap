@@ -32,8 +32,8 @@ brew_install() {
 
 
 install_packages() {
-  brew_install git hub mr
-  brew_install autojump tree the_silver_searcher
+  brew_install git tig hub mr
+  brew_install autojump tree the_silver_searcher pstree
   brew_install tmux reattach-to-user-namespace
   brew_install wget
   brew_install zsh
@@ -41,6 +41,7 @@ install_packages() {
   brew_install htop
   brew_install emacs
   brew_install lua
+  brew_install csshx
   brew_install vim --with-cscope --with-lua
   brew_install ruby-build chruby
 }
