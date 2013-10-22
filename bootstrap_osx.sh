@@ -49,6 +49,7 @@ install_cask_packages() {
   brew cask install flash
   brew cask install hip-chat
   brew cask install istat-menus
+  brew cask install vagrant
 }
 
 install_packages() {
@@ -64,6 +65,7 @@ install_packages() {
   brew_install csshx
   brew_install vim --with-cscope --with-lua
   brew_install ruby-build chruby
+  brew_install mosh
 }
 
 install_configurations() {
