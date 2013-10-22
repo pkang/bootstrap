@@ -31,6 +31,26 @@ brew_install() {
 }
 
 
+install_cask_packages() {
+  brew cask install adium
+  brew cask install skype
+  brew cask install caffeine
+  brew cask install dropbox
+  brew cask install f.lux
+  brew cask install size-up
+  brew cask install zooom
+  brew cask install tunnelblick
+  brew cask install keepass-x
+  brew cask install one-password
+  brew cask install chrome
+  brew cask install firefox
+  brew cask install vlc
+  brew cask install wireshark
+  brew cask install flash
+  brew cask install hip-chat
+  brew cask install istat-menus
+}
+
 install_packages() {
   brew_install git tig hub mr
   brew_install autojump tree the_silver_searcher pstree
@@ -111,6 +131,7 @@ setup_ssh() {
 setup_homebrew
 setup_homebrew_cask
 install_packages
+install_cask_packages
 setup_iterm
 #setup_ssh
 #install_configurations
