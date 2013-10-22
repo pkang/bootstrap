@@ -50,6 +50,7 @@ install_cask_packages() {
   brew cask install hip-chat
   brew cask install istat-menus
   brew cask install vagrant
+  brew cask install emacs
 }
 
 install_packages() {
